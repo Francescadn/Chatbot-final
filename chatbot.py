@@ -1,5 +1,5 @@
 import streamlit as st  
-import groq  
+import groq as gq
 # LISTA DE MODELOS DISPONIBLES
 MODELOS = ['llama3-8b-8192', 'llama3-70b-8192']
 # CONFIGURAR LA PÁGINA
