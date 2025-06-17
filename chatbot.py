@@ -9,7 +9,7 @@ def configurar_pagina():
 # CREAR CLIENTE GROQ
 def crear_cliente_groq():
     groq_api_key = st.secrets["GROQ_API_KEY"]
-    return groq.Groq(api_key=groq_api_key)
+    return gq.Groq(api_key=groq_api_key)
 # MOSTRAR BARRA LATERAL Y DEVOLVER MODELO ELEGIDO
 def mostrar_sidebar():
     st.sidebar.title("Elegí tu modelo de IA preferido")
